@@ -1,5 +1,6 @@
-import { Logo } from '@/components/Logo'
-import styles from '@/styles/home.module.scss'
+import { Logo } from "@/components/Logo";
+import { Title } from "@/components/Title";
+import styles from "@/styles/home.module.scss";
 
 export default function Home() {
   return (
@@ -8,8 +9,8 @@ export default function Home() {
         <header className={styles.header}>
           <Logo />
         </header>
-        <h1>From dust to&nbsp;dawn</h1>
+        <Title size="Medium">From dusk to&nbsp;dawn</Title>
       </section>
     </main>
-  )
+  );
 }
